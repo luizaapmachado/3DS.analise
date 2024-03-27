@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background: url(Sem\ nome\ [Tamanho\ original].png) ;
+            font-family: Garamond;
+            margin: 0;
+            padding: 0;
+            background-color: 	#FFFFF0;
+        }
+
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            background:  #D2B48C;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .login-container button {
+            background-color: #947c5c;
+            color: #FFF8DC;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        nav {
+            background-color: #F5DEB3;
+            color: #000000;
+            text-align: center;
+            padding: 1em;
+            
+        }
+        nav a{
+            text-decoration: none;
+            color: #000000;
+            padding: 2%;
+        
+        }
+        footer {
+            background-color: #F5DEB3;
+            color: #000000;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><a href="index1.html">Coffee & Cats</a></h1>
+          <a href="index2.html">Cardápio</a>|
+          <a href="index3.html">Contato</a> |
+          <a href="index4.html">Login</a>|
+          <a href="index5.html">Veja seus amigos felinos</a>
+        
+      </nav>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/action_page.php">
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Coffee & Cats</p>
+    </footer>
+</body>
+</html>

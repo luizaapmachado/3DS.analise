@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nossos Gatinhos</title>
+    <script src="arquivo2.js"></script>
+    <style>
+        body {
+            background: url(./Sem\ nome\ [Tamanho\ original].png);
+            font-family:Garamond;
+            margin: auto;
+            padding: 0;
+            display: inline;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+           
+        }
+        nav {
+            background-color: #F5DEB3;
+            color: #000000;
+            text-align: center;
+            padding: 2%;
+            
+        }
+        nav a{
+            text-decoration: none;
+            color: #000000;
+            padding: 2%;
+        
+        }
+        main {
+    max-width: 100%;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    
+    
+    
+}
+.p1{
+    
+    max-width: 100%;
+   
+    margin: 50px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    
+}
+.p2{
+    max-width: 100%;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+   
+}
+.prato {
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.prato1{
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.prato2{
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.prato3{
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.prato4{
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.prato5{
+    background-color: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.prato:hover {
+    transform: translateY(-5px);
+}
+
+
+.prato img {
+    float: left;
+    max-width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 10px 10px 0;   
+}
+.prato img:hover{ 
+    transform: scale(1.07);
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    background-color:  #D2B48C;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Abril Fatface', serif;
+    
+}
+
+button:hover{
+    background-color:   #2b2b2b;
+    color: #f9f9f9;
+    transition: 0.3s;
+}
+footer {
+            background-color: #F5DEB3;
+            color: #000000;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><a href="index1.html">Coffee & Cats</a></h1>
+          <a href="index2.html">Cardápio</a>|
+          <a href="index3.html">Contato</a> |
+          <a href="index4.html">Login</a>|
+          <a href="index5.html">Veja seus amigos felinos</a>
+        
+      </nav>
+      <main> 
+        <div class="p1">
+        <section class="prato1">
+            <img src="athena.jpeg" alt="" id="pratocheio"  style="width: 200px; height: 250px;">
+            <h2>Athena</h2>
+            <button onclick="clicou1()" id="prato1">Escolher</button>
+        </section>
+
+        <section class="prato2"> 
+            <img src="bartho.jpeg" alt="" id="ovo" style="width: 250px; height: 250px;">
+            <h2>Bartho</h2>
+            <button onclick="clicou2()" id="ovo">Escolher</button>
+        </section>
+
+        <section class="prato3">
+            <img src="WhatsApp Image 2024-03-07 at 11.10.55 (1).jpeg" alt="" id="cuzcuz" style="width: 250px; height:250px;">
+            <h2>Mila</h2>
+            <button onclick="clicou3()">Escolher</button>
+       
+    </section>
+
+            
+        <section class="prato4">
+            <img src="fred.jpeg" alt="" style="width: 200px; height: 250px;">
+            <h2>Frederico</h2>
+            <button onclick="clicou4()">Escolher</button>
+        </section>
+    
+    
+        <section class="prato5">
+            <img src="frederico.jpeg" alt="" style="width: 200px; height: 250px;">
+            <h2>Frederico</h2>
+            <button onclick="clicou4()">Escolher</button>  
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Coffee & Cats</p>
+   
+
+    <address>
+        Endereço:AV.Brasil, 666<br>
+        Telefone: (45) 8002-8922<br>
+        Email: coffeecats@gmail.com
+    </address>
+
+    </footer>
+</body>
+</html>
